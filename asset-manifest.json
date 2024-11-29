@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/BalckSof_PushpendraPal/static/css/main.0a3f84ab.css",
+    "main.js": "/BalckSof_PushpendraPal/static/js/main.82555790.js",
+    "static/js/453.03a36d1d.chunk.js": "/BalckSof_PushpendraPal/static/js/453.03a36d1d.chunk.js",
+    "static/media/Hero_section.png": "/BalckSof_PushpendraPal/static/media/Hero_section.e36ded22387b76a48dca.png",
+    "static/media/Footer.png": "/BalckSof_PushpendraPal/static/media/Footer.60cebb0a730fbf0982d4.png",
+    "static/media/streetlight.png": "/BalckSof_PushpendraPal/static/media/streetlight.41c767dc69d25a3d58cf.png",
+    "index.html": "/BalckSof_PushpendraPal/index.html",
+    "main.0a3f84ab.css.map": "/BalckSof_PushpendraPal/static/css/main.0a3f84ab.css.map",
+    "main.82555790.js.map": "/BalckSof_PushpendraPal/static/js/main.82555790.js.map",
+    "453.03a36d1d.chunk.js.map": "/BalckSof_PushpendraPal/static/js/453.03a36d1d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0a3f84ab.css",
+    "static/js/main.82555790.js"
+  ]
+}

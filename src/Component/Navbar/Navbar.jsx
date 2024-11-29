@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 import style from "../Navbar/Navbar.module.css"
-import image from "../Media/Logo_2.png"
+import Logo from "../Media/Logo_2.png"
 import { Link } from 'react-router-dom';
 import imagetoggel from "../Media/web.png"
 const Navbar = () => {
@@ -18,7 +18,7 @@ const Navbar = () => {
       <nav className={style.container}> 
         <div className={style.container1}>
         <div className={style.container2}>
-         <Link  className={style.logoimg} to="/"><img src={image} alt=''/></Link>
+         <Link  className={style.logoimg} to="/"><img src={Logo} alt=''/></Link>
           <div className={style.toggelbutton}><button onClick={toggleMenu}><img src={imagetoggel} alt="" /></button></div>
         </div>
         <div className={`${style.container3} ${menuOpen ? style.active : ''}`}>

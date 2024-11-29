@@ -1,0 +1,306 @@
+    .EcosystemContainer{
+        margin-top: 33%;
+        background: linear-gradient(to right, #FFFFFF 100%, #E2F2FFDB 86%, #ECF7FF 100%);
+    }
+    .mainContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+        padding:  7% 15% 0 15%;
+    }
+    
+    .mainContainer .mainName p{
+        width: 30%;
+        padding: 8px;
+        font-size: 2vw;
+        line-height: 1.5vw;
+        background: linear-gradient(to right, rgb(90, 90, 254) 0.1%,transparent);
+    }
+    .mainContainer .details{
+        font-size: 2.9vw;
+        line-height: 2vw;
+        font-weight: 300;
+    }
+    .workingSystem{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }   
+    .iteam2{
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .iteam{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;   
+    }
+    .card1{
+        display: flex;
+        align-items: center;
+        gap: 20%;
+    }
+    .card1 .light1 {
+        border: 2px dashed #3661FF;
+        border-radius: 25%;
+        padding: 2.5%;
+    }
+    .card1 .light1 img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid #3661FF;
+        padding: 10px;
+        border-radius: 20px;
+    }
+    .card2 h6{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 1vw;
+        margin-left: 8%;
+        margin-bottom: 5%;
+        text-wrap :wrap;
+
+    }
+    .card2 p{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.1vw;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 10%;
+        text-wrap :wrap;
+    }
+    .gateway{
+        border: 2px dashed #3661FF;
+        border-radius: 25%;
+        padding: 7%;
+        margin: 0;
+    }
+    .gateway img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid #3661FF;
+        padding: 10px;
+        border-radius: 20px;
+    }
+    .workingSystem2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin: 1% 0% 10% 0%;
+    }  
+    .line{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-top: 1px dashed gray;
+        margin-top:-13% ;
+        padding-right: 5VW;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .line2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-right: 1px dashed gray;
+        padding: 2VW;
+        margin-left: 47%;
+    }
+    .line3{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-top: 1px dashed gray;
+        border-left: 1px dashed gray;
+        border-right: 1px dashed gray;
+        margin-top:-0.2% ;
+        padding-right: 27VW;
+        padding-bottom:6vh ;
+        margin-left: 32%;
+        margin-right: 0;
+    }
+
+    @media only screen and (max-width: 1000px) {
+        .line{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-top: 1px dashed gray;
+            margin-top:-13% ;
+            padding-right: 3VW;
+            margin-left: 0;
+            margin-right: 0;
+        }  
+        .card1{
+            display: flex;
+            align-items: center;
+            gap: 10%;
+        } 
+    }
+
+
+    @media only screen and (max-width: 800px) {
+        .mainContainer .mainName p{
+            width: 30%;
+            padding: 8px;
+            font-size: 3vw;
+            line-height: 1.5vw;
+            background: linear-gradient(to right, rgb(79, 79, 251) 1%, white 99% );
+        }
+        .mainContainer .details{
+            font-size: 3.9vw;
+            line-height: 2vw;
+            font-weight: 300;
+        }
+        .workingSystem{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            /* gap: 10%;    */
+        }   
+        .iteam2{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;   
+        }
+        .iteam{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;   
+        }
+        .card1{
+            display: flex;
+            align-items: center;
+            gap: 20%;
+        }
+        .card1 .light1 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 2px dashed #3661FF;
+            border-radius: 25%;
+            padding: 15%;
+        }
+        .card1 .light1 img{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid #3661FF;
+            /* padding: 50%; */
+            border-radius: 20%;
+        }
+        .card2 h6{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-size: 2.5vw;
+            margin-left: 8%;
+            margin-bottom: 5%;
+            text-wrap :wrap;
+    
+        }
+        .card2 p{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-size: 2.8vw;
+            margin-top: 0;
+            margin-bottom: 5%;
+            margin-left: 10%;
+            text-wrap :wrap;
+        }
+        .gateway{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 2px dashed #3661FF;
+            border-radius: 25%;
+            padding: 10%;
+            margin: 0;
+        }
+        .gateway img{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid #3661FF;
+            padding: 5px;   
+            border-radius: 20px;
+        }
+        .workingSystem2{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100%; 
+            margin: 1% 0% 10% 0%;
+        }  
+        .line{
+            display: none;          
+        }
+        .line2{
+            display: none;
+        }
+        .line3{
+            display: none;
+        }
+    
+    }
+
+
+    @media only screen and (max-width: 400px) {
+        .mainContainer .mainName p{
+            width: 30%;
+            padding: 8px;
+            font-size: 3.6vw;
+            line-height: 1.5vw;
+            background: linear-gradient(to right, rgb(79, 79, 251) 1%, white 99% );
+        }
+        .mainContainer .details{
+            font-size: 4.5vw;
+            line-height: 2vw;
+            font-weight: 300;
+        }
+
+        .card2 h6{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-size: 3.7vw;
+            margin-left: 8%;
+            margin-bottom: 5%;
+            text-wrap :wrap;
+    
+        }
+        .card2 p{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-size: 4vw;
+            margin-top: 0;
+            margin-bottom: 5%;
+            margin-left: 10%;
+            text-wrap :wrap;
+        }
+    }

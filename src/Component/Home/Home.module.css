@@ -1,0 +1,121 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 20vh;
+
+}
+.heroContainer img{
+    width: 100%;
+}
+.tagline{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 2;
+    margin-top: -43%;
+}
+.tagline p{
+    font-size: 1.3vw;
+    line-height: 5px;
+    color: white;
+}
+.tagline h3{
+    font-size: 2vw;
+    line-height: 5px;
+    color: white;
+}
+.tagline .btnf button{
+    font-size: 1.2vw;
+    color: #FFFFFF;
+    background-color: #3661FF;
+    border: 2px solid #3661FF;
+    width: 6vw;
+    height: 2vw;
+}
+@media only screen and (max-width: 800px) {
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 20vh;   
+    }
+    .heroContainer img{
+        width: 100%;
+    }
+    .tagline{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        z-index: 2;
+        margin-top: -43%;
+    }
+    .tagline p{
+        font-size: 2.3vw;
+        line-height: 5px;
+        color: white;
+    }
+    .tagline h3{
+        font-size: 2.8vw;
+        line-height: 5px;
+        color: white;
+    }
+    .tagline .btnf button{
+        font-size: 1.8vw;
+        color: #FFFFFF;
+        background-color: #3661FF;
+        border: 2px solid #3661FF;
+        width: 8vw;
+        height: 4vw;
+    }
+}
+@media only screen and (max-width: 400px) {
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 20vh;   
+    }
+    .heroContainer img{
+        width: 100%;
+    }
+    .tagline{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        z-index: 2;
+        margin-top: -55%;
+    }
+    .tagline p{
+        font-size: 3.1vw;
+        line-height: 5px;
+        color: white;
+    }
+    .tagline h3{
+        font-size: 3.3vw;
+        line-height: 2px;
+        color: white;
+    }
+    .tagline .btnf button{
+        font-size: 2.8vw;
+        color: #FFFFFF;
+        background-color: #3661FF;
+        border: 2px solid #3661FF;
+        width: 12vw;
+        height: 6vw;
+    }
+}

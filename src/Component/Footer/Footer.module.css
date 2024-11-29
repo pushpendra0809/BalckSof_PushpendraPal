@@ -1,0 +1,330 @@
+  .Footer img{
+      width: 100%;
+  }
+  .Card1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 35vw;
+        position: relative;
+        z-index: 5;
+        margin-top: -26vw;
+        color: #ffffff;
+    }
+    .logo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5vw;
+        margin-left: -8vw;
+    }
+    .logo .LogoImage{
+       width: 100%;
+    }
+    .list{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5vw;
+        margin-left: -8vw;
+
+    }
+    .list .iteam{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+    }
+    .termContion{
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        position: relative;
+        margin-top: 12vw;
+        margin-left: 12VW;
+        gap:2vw;
+        color: #ffffff;
+        border-top: 2px solid #ffffff ;
+        width: 50vw;
+    }
+
+    @media only screen and (max-width: 1200px) {
+         .Card1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 25vw;
+        position: relative;
+        z-index: 5;
+        margin-top: -26vw;
+        color: #ffffff;
+    }
+    .logo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: -5vw;  
+    }
+    .logo .LogoImage{
+       width: 100%;
+    }
+    .list{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5vw;
+        margin-left: -8vw;
+
+    }
+    .list .iteam{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+    }
+    .termContion{
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        position: relative;
+        margin-top: 12vw;
+        margin-left: 14VW;
+        gap:2vw;
+        color: #ffffff;
+        border-top: 2px solid #ffffff ;
+        width: 50vw;
+    }
+    }
+
+    @media only screen and (max-width: 800px) {
+        .Footer{
+            width: 100vw;
+            height: 100vh;
+        }
+        .Footer .LogoImage{
+            width: 100vw;
+            height: 80vh;
+
+        }
+        .Card1{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 5vw;
+            position: relative;
+            z-index: 5;
+            color: #ffffff;
+        }
+        .logo{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: -8vw;
+        }
+        .logo img{
+            width: 25vw;
+        }
+        .list{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .list .iteam{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            font-size: 2vw;
+            margin-bottom: 8VW;
+        }
+        .termContion{
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            position: relative;
+            margin-top: -0.01%;
+            margin-left: 22VW;
+            /* gap:2vw; */
+            color: #ffffff;
+            border-top: 2px solid #ffffff ;
+            width: 60vw;
+        }
+        .termContion p{
+            font-size: 2vw;
+        }
+    }
+    @media only screen and (max-width: 600px) {
+        .Footer{
+            width: 100vw;
+            height: 100vh;
+        }
+        .Footer .LogoImage{
+            width: 100vw;
+            height: 70vh;
+
+        }
+        .Card1{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 5vw;
+            position: relative;
+            z-index: 5;
+            color: #ffffff;
+        }
+        .logo{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: -14vw;
+        }
+        .logo img{
+            width: 30vw;
+        }
+        .list{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .list .iteam{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            font-size: 3vw;
+            margin-bottom: 8VW;
+        }
+        .termContion{
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            position: relative;
+            margin-top: -0.01%;
+            margin-left: 17VW;
+            /* gap:2vw; */
+            color: #ffffff;
+            border-top: 2px solid #ffffff ;
+            width: 70vw;
+        }
+        .termContion p{
+            font-size: 2.5vw;
+        }
+    }
+    @media only screen and (max-width: 400px) {
+        .Footer{
+            width: 100vw;
+            height: 100vh;
+        }
+        .Footer .LogoImage{
+            width: 100vw;
+            height: 60vh;
+
+        }
+        .Card1{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 5vw;
+            position: relative;
+            z-index: 5;
+            color: #ffffff;
+        }
+        .logo{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: -27vw;
+        }
+        .logo img{
+            width: 40vw;
+        }
+        .list{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .list .iteam{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            font-size: 3.5vw;
+            margin-bottom: 8VW;
+        }
+        .termContion{
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            position: relative;
+            margin-top: -0.01%;
+            margin-left: 13VW;
+            /* gap:2vw; */
+            color: #ffffff;
+            border-top: 2px solid #ffffff ;
+            width: 80vw;
+        }
+        .termContion p{
+            font-size: 3vw;
+        }
+    }
+    @media only screen and (max-width: 300px) {
+        .Footer{
+            width: 100vw;
+            height: 100vh;
+        }
+        .Footer .LogoImage{
+            width: 100vw;
+            height: 50vh;
+
+        }
+        .Card1{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 5vw;
+            position: relative;
+            z-index: 5;
+            color: #ffffff;
+        }
+        .logo{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: -30vw;
+        }
+        .logo img{
+            width: 50vw;
+        }
+        .list{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .list .iteam{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            font-size: 4vw;
+            margin-bottom: 8VW;
+        }
+        .termContion{
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            position: relative;
+            margin-top: -0.01%;
+            margin-left: 8VW;
+            /* gap:2vw; */
+            color: #ffffff;
+            border-top: 2px solid #ffffff ;
+            width: 90vw;
+        }
+        .termContion p{
+            font-size: 3.5vw;
+        }
+    }

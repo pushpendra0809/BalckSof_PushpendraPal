@@ -1,0 +1,202 @@
+
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    padding:  7% 15% 0 15%;
+    background-color: #e1f4f3;
+}
+
+.mainContainer .mainName p{
+    width: 10%;
+    padding: 8px;
+    font-size: 2vw;
+    line-height: 1vw;
+    background: linear-gradient(to right,  white 1% ,transparent);
+    color: #00386B;
+}
+.mainContainer .details{
+    font-size: 2.9vw;
+    line-height: 1vw;
+    font-weight: 300;
+}
+.Category .btn1{
+    margin: 0.5%;
+    padding: 1%;
+    background: linear-gradient(to right, #CBE3FF0F 6%,#6FB2FF66 40%,#CBE3FF0F 6%,#AED2FB66 40%);
+    border: 2px solid #869FFB;
+
+}
+.Category .btn2{
+    margin: 0.5%;
+    padding: 1%;
+    background: transparent;
+    border: 2px solid #797979;
+}
+.mainProduct{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2% 0.5% 10% 0.5%;
+
+}
+.section1{
+    width: 36vw;
+}
+.section1 img{
+    width: 100%;
+}
+.section2{
+    width: 36vw;
+    padding: 6.1% 5% 6.1% 5%;
+    background: linear-gradient(to bottom, #FFFFFF 1%,#E1F4FF 100% );
+}
+.Pname{
+    font-size: 1.2vw;
+    line-height: 0;
+}
+.PHeading{
+    font-size: 1.8vw;
+     margin: 0;
+}
+.discription{
+    font-size: 1.2vw;
+    margin: 0;
+}
+.morebtn{
+    display: flex;
+    align-items: center;
+}
+.morebtnImage img{
+    width: 100%;
+}
+.morebtn p{
+    display: flex;
+    align-items: center;
+    margin-right: 1.5%;
+    font-size: 1.2vw;
+    color: #3661FF;
+}
+.sideButton2 {
+    margin-left: -3.5vw;
+    margin-bottom: -4.2vw;
+}
+.sideButton{
+    margin-left: 30vw;
+    margin-top: -3.5vw;
+}
+.sideButton2 button{
+    width: 3vw;
+    height: 2.5vw;
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+.sideButton button{
+    width: 3vw;
+    height: 2.5vw;
+    background-color: #E4E4E4;
+    border: 1px solid #E4E4E4;
+}
+
+@media only screen and (max-width: 800px) {
+     
+.mainContainer .mainName p{
+    width: 10%;
+    padding: 8px;
+    font-size: 3.2vw;
+    line-height: 1vw;
+    background: linear-gradient(to right,  white 1% ,transparent);
+    color: #00386B;
+}
+.mainContainer .details{
+    font-size: 3.1vw;
+    line-height: 1vw;
+    font-weight: 300;
+}
+.Category .btn1{
+    margin: 0.5%;
+    padding: 1%;
+    background: linear-gradient(to right, #CBE3FF0F 6%,#6FB2FF66 40%,#CBE3FF0F 6%,#AED2FB66 40%);
+    border: 2px solid #869FFB;
+
+}
+.Category .btn2{
+    margin: 0.5%;
+    padding: 1%;
+    background: transparent;
+    border: 2px solid #797979;
+}
+.mainProduct{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2% 0.5% 20% 0.5%;
+}
+.section1{
+    width: 70vw;
+}
+.section1 img{
+    width: 100%;
+    height: 35vw;
+}
+.section2{
+    width: 63vw;
+    height: 36vh;
+    /* padding: 5.1% 5% 5.1% 5%;     */
+    background: linear-gradient(to bottom, #FFFFFF 1%,#E1F4FF 100% );
+}
+.Pname{
+    font-size: 1.8vw;
+    line-height: 0;
+}
+.PHeading{
+    font-size: 2.8vw;
+     margin: 0;
+}
+.discription{
+    font-size: 1.8vw;
+    margin: 0;
+}
+.morebtn{
+    display: flex;
+    align-items: center;
+}
+.morebtnImage img{
+    width: 8vw;
+}
+.morebtn p{
+    display: flex;
+    align-items: center;
+    margin-right: 1.5%;
+    font-size: 2.8vw;
+    color: #3661FF;
+}
+    .sideButton2 {
+        display: none;
+        margin-left: -3.5vw;
+        margin-bottom: -2.9vw;
+    }
+.sideButton{
+    display: none;
+    margin-left: 30vw;
+    margin-top: -3.5vw;
+}
+}
+
+@media only screen and (max-width: 400px) {
+    .mainContainer .mainName p{
+        width: 10%;
+        padding: 8px;
+        font-size: 5.2vw;
+        line-height: 1vw;
+        background: linear-gradient(to right,  white 1% ,transparent);
+        color: #00386B;
+    }
+    .mainContainer .details{
+        font-size: 4.5vw;
+        line-height: vw;
+        font-weight: 300;
+    }
+}

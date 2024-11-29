@@ -47,7 +47,6 @@
     color: #FFFFFF;
     font-size: 1.3rem;
     border: 2px solid #3661FF;
-    /* border-radius: 15px; */
 }
 
 .Username{
@@ -213,7 +212,6 @@ justify-content: center;
         background-color: black;
         z-index: 1;
         top: 0;
-        /* right: -50%; */
       }
       .toggelname{
         color: #0085FF;

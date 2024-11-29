@@ -1,6 +1,14 @@
   .Footer img{
       width: 100%;
   }
+  .Footer .LogoImage{
+    width: 100%;
+    height: 90vh;
+
+}
+.mainContainer{
+    margin-top: -70vh;
+}
   .Card1{
         display: flex;
         align-items: center;
@@ -17,8 +25,9 @@
         justify-content: center;
         gap: 5vw;
         margin-left: -8vw;
+        
     }
-    .logo .LogoImage{
+    .logo .img{
        width: 100%;
     }
     .list{
@@ -49,6 +58,14 @@
     }
 
     @media only screen and (max-width: 1200px) {
+        .Footer{
+            width: 100vw;
+        }
+        .Footer .LogoImage{
+            width: 100%;
+            height: 90vh;
+
+        }
          .Card1{
         display: flex;
         align-items: center;
@@ -65,7 +82,7 @@
         justify-content: center;
         margin-left: -5vw;  
     }
-    .logo .LogoImage{
+    .logo img{
        width: 100%;
     }
     .list{
@@ -94,18 +111,21 @@
         border-top: 2px solid #ffffff ;
         width: 50vw;
     }
+    .mainContainer{
+        margin-top: -80vh;
+    }
     }
 
     @media only screen and (max-width: 800px) {
         .Footer{
             width: 100vw;
-            height: 100vh;
         }
         .Footer .LogoImage{
-            width: 100vw;
+            width: 100%;
             height: 80vh;
 
         }
+
         .Card1{
             display: flex;
             flex-direction: column;
@@ -120,7 +140,6 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            margin-top: -8vw;
         }
         .logo img{
             width: 25vw;
@@ -145,7 +164,6 @@
             position: relative;
             margin-top: -0.01%;
             margin-left: 22VW;
-            /* gap:2vw; */
             color: #ffffff;
             border-top: 2px solid #ffffff ;
             width: 60vw;
@@ -153,11 +171,13 @@
         .termContion p{
             font-size: 2vw;
         }
+        .mainContainer{
+            margin-top: -70vh;
+        }
     }
     @media only screen and (max-width: 600px) {
         .Footer{
             width: 100vw;
-            height: 100vh;
         }
         .Footer .LogoImage{
             width: 100vw;
@@ -178,7 +198,6 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            margin-top: -14vw;
         }
         .logo img{
             width: 30vw;
@@ -194,7 +213,6 @@
             justify-content: center;
             text-decoration: none;
             font-size: 3vw;
-            margin-bottom: 8VW;
         }
         .termContion{
             display: flex;
@@ -203,7 +221,6 @@
             position: relative;
             margin-top: -0.01%;
             margin-left: 17VW;
-            /* gap:2vw; */
             color: #ffffff;
             border-top: 2px solid #ffffff ;
             width: 70vw;
@@ -211,11 +228,13 @@
         .termContion p{
             font-size: 2.5vw;
         }
+        .mainContainer{
+            margin-top: -60vh;
+        }
     }
     @media only screen and (max-width: 400px) {
         .Footer{
             width: 100vw;
-            height: 100vh;
         }
         .Footer .LogoImage{
             width: 100vw;
@@ -231,12 +250,12 @@
             position: relative;
             z-index: 5;
             color: #ffffff;
+            margin-top: -20%;
         }
         .logo{
             display: flex;
             align-items: center;
             justify-content: center;
-            margin-top: -27vw;
         }
         .logo img{
             width: 40vw;
@@ -261,7 +280,6 @@
             position: relative;
             margin-top: -0.01%;
             margin-left: 13VW;
-            /* gap:2vw; */
             color: #ffffff;
             border-top: 2px solid #ffffff ;
             width: 80vw;
@@ -269,14 +287,16 @@
         .termContion p{
             font-size: 3vw;
         }
+        .mainContainer{
+            margin-top: -50vh;
+        }
     }
     @media only screen and (max-width: 300px) {
         .Footer{
             width: 100vw;
-            height: 100vh;
         }
         .Footer .LogoImage{
-            width: 100vw;
+            width: 100%;
             height: 50vh;
 
         }
@@ -326,5 +346,8 @@
         }
         .termContion p{
             font-size: 3.5vw;
+        }
+        .mainContainer{
+            margin-top: -20vh;
         }
     }
